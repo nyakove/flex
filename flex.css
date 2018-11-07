@@ -1,0 +1,164 @@
+body {
+	position: fixed;
+	left: 50%;
+	background-color: #DCDCDC;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+#container {
+	display: block;
+}
+
+left {
+	display: block;
+	width: 250px;
+	background-color: #F0F8FF;
+}
+
+#container-main {
+	display: flex;
+}
+#top {
+	width: 1050px;
+	height: 75px;
+	background-color: #FFFAFA;
+	display: flex;
+	align-items: center;
+}
+
+logo {
+	width: 75px;
+	height: 75px;
+	margin-left: 10px;
+}
+
+search {
+	display: flex;
+	margin-left: 680px;
+}
+
+input {
+	height: 35px;
+	width: 278px;
+	padding: 17 28;
+	margin-right: 5;
+	border: 2px solid #00CED1;
+    border-radius: 5px;
+	outline: none;
+	background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+}
+
+input:focus {
+	border: 2px solid #4169E1;
+	border-radius: 5px;
+}
+
+#menu {
+	display: flex;
+	width: 1050px;
+}
+
+#main {
+	display: flex;
+	width: 1050px;
+	height: 530px;
+}
+
+li {
+	font-family: 'Slabo 27px', serif;
+	background-color: #00CED1;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
+	display: inline-block;
+	width: 151px;
+	text-align: center;
+	border-radius: 5px;
+	}
+	
+left li {
+	display: block;
+	width: auto;
+	text-align: left;
+	}
+	
+li:hover {
+	background-color: #B0E0E6;
+}
+
+header li {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14pt;
+}
+
+ul {
+	margin: 8px 0 8px 0;
+	padding: 0 0 0 0;
+}
+	
+#container-main div {
+	padding: 5px 5px 5px 5px;
+	margin: 5px 0px 5px 5px;
+	width: 250px;
+	height: 510px;
+}	
+
+#container-main div:last-child {
+	margin: 5px 5px 5px 5px;
+}	
+
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: justify;
+	margin: 16 0;
+	font-size: 15;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	font-weight: 400;
+}
+
+#red {
+	background-color: #FFE4E1;
+}
+
+#green {
+	background-color: #F5FFFA;
+}
+
+#brown {
+	background-color: #FDF5E6;
+}
+
+main {
+	background-color: #F5F5DC;
+	width: 800px;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+
+footer {
+	background-color: #A9A9A9;
+	width: 1050px;
+}
+
+#footer {
+	display: flex;
+	height: 100px;
+}
+
+#footer div {
+	background-color: #FFF0F5;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 0px 5px 5px;
+	width: 350px;
+}
+
+#footer div:last-child {
+	margin: 5px 5px 5px 5px;
+}
