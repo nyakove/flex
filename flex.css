@@ -116,6 +116,10 @@ p {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	font-weight: 400;
+	hyphens: auto;
+	-ms-hyphens: auto; 
+	-moz-hyphens: auto; 
+	-webkit-hyphens: auto; 
 }
 
 #red {
