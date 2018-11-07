@@ -9,7 +9,7 @@ body {
 	display: block;
 }
 
-left {
+x-left {
 	display: flex;
 	flex-direction: column;
 	width: 250px;
@@ -29,13 +29,13 @@ left {
 	border-radius: 6px;
 }
 
-logo {
+x-logo {
 	width: 75px;
 	height: 75px;
 	margin-left: 10px;
 }
 
-search {
+x-search {
 	display: flex;
 	margin-left: 680px;
 }
@@ -80,7 +80,7 @@ li {
 	border-radius: 5px;
 	}
 	
-left li {
+x-left li {
 	display: block;
 	width: auto;
 	text-align: left;
