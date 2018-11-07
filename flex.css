@@ -10,7 +10,8 @@ body {
 }
 
 left {
-	display: block;
+	display: flex;
+	flex-direction: column;
 	width: 250px;
 	background-color: #F0F8FF;
 }
@@ -18,12 +19,14 @@ left {
 #container-main {
 	display: flex;
 }
+
 #top {
 	width: 1050px;
 	height: 75px;
 	background-color: #FFFAFA;
 	display: flex;
 	align-items: center;
+	border-radius: 6px;
 }
 
 logo {
