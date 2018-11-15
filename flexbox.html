@@ -1,92 +1,102 @@
 <html lang="en">
+
 <head>
-<title>Flex CSS</title>
-<link rel="stylesheet" href="flex.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed%7CSlabo+27px%7CUbuntu" rel="stylesheet">
+    <title>Flex CSS</title>
+    <link rel="stylesheet" href="flex.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed%7CSlabo+27px%7CUbuntu" rel="stylesheet">
 </head>
+
 <body>
-<div id="container">
-<header>
-<div id="top">
-<x-logo>
-<a href='#'><img src="logo.png" alt="logo" /></a>
-</x-logo>
-<x-search>
-<input type="search" placeholder="Search" />
-</x-search>
-</div>
-<div id="menu">
-<ul>
-<li><a href='#'>Main</a></li>
-<li><a href='#'>Articles</a></li>
-<li><a href='#'>Wiki</a></li>
-<li><a href='#'>Archive</a></li>
-<li><a href='#'>Forum</a></li>
-<li><a href='#'>About</a></li>
-</ul>
-</div>
-</header>
-<div id="main">
-<x-left>
-<ul>
-<li><a href='#'>First point</a></li>
-<li><a href='#'>Second point</a></li>
-<li><a href='#'>Third point</a></li>
-<li><a href='#'>Fourth point</a></li>
-<li><a href='#'>Fifth point</a></li>
-<li><a href='#'>Sixth point</a></li>
-</ul>
-</x-left>
-<main>
-<div id="container-main">
-<div id="red">
-<p lang="en">
-Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of screen readers:
-</p>
-<p lang="en">
-Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of screen readers:
-</p>
-<p lang="en">
-I got lots of good bits of feedback, which I collected into a Storify (crappy PDF version since the new Storify domain owners may block WayBack). I’ve distilled all that great information to these key points:
-</p>
-</div>
-<div id="green">
-<p lang="en">
-Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of screen readers:
-</p>
-<p lang="en">
-Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of screen readers:
-</p>
-<p lang="en">
-I got lots of good bits of feedback, which I collected into a Storify (crappy PDF version since the new Storify domain owners may block WayBack). I’ve distilled all that great information to these key points:
-</p>
-</div>
-<div id="brown">
-<p lang="en">
-Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of screen readers:
-</p>
-<p lang="en">
-Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of screen readers:
-</p>
-<p lang="en">
-I got lots of good bits of feedback, which I collected into a Storify (crappy PDF version since the new Storify domain owners may block WayBack). I’ve distilled all that great information to these key points:
-</p>
-</div>
-</div>
-</main>
-</div>
-<footer>
-<div id="footer">
-<div class="footer"></div>
-<div class="footer"></div>
-<div class="footer"></div>
-</div>
-</footer>
-</div>
-<script>
-var xLogo = document.registerElement('x-logo', {prototype: Object.create(HTMLDivElement.prototype)});
-var xLeft = document.registerElement('x-left', {prototype: Object.create(HTMLDivElement.prototype)});
-var xSearch = document.registerElement('x-search', {prototype: Object.create(HTMLDivElement.prototype)});
-</script>
+    <div id="container">
+        <header>
+            <div id="top">
+                <x-logo>
+                    <a href='#'><img src="logo.png" alt="logo" /></a>
+                </x-logo>
+                <x-search>
+                    <input type="search" placeholder="Search" />
+                </x-search>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href='#'>Main</a></li>
+                    <li><a href='#'>Articles</a></li>
+                    <li><a href='#'>Wiki</a></li>
+                    <li><a href='#'>Archive</a></li>
+                    <li><a href='#'>Forum</a></li>
+                    <li><a href='#'>About</a></li>
+                </ul>
+            </div>
+        </header>
+        <div id="main">
+            <x-left>
+                <ul>
+                    <li><a href='#'>First point</a></li>
+                    <li><a href='#'>Second point</a></li>
+                    <li><a href='#'>Third point</a></li>
+                    <li><a href='#'>Fourth point</a></li>
+                    <li><a href='#'>Fifth point</a></li>
+                    <li><a href='#'>Sixth point</a></li>
+                </ul>
+            </x-left>
+            <main>
+                <div id="container-main">
+                    <div id="red">
+                        <p lang="en">
+                            Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of screen readers:
+                        </p>
+                        <p lang="en">
+                            Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of screen readers:
+                        </p>
+                        <p lang="en">
+                            I got lots of good bits of feedback, which I collected into a Storify (crappy PDF version since the new Storify domain owners may block WayBack). I’ve distilled all that great information to these key points:
+                        </p>
+                    </div>
+                    <div id="green">
+                        <p lang="en">
+                            Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of screen readers:
+                        </p>
+                        <p lang="en">
+                            Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of screen readers:
+                        </p>
+                        <p lang="en">
+                            I got lots of good bits of feedback, which I collected into a Storify (crappy PDF version since the new Storify domain owners may block WayBack). I’ve distilled all that great information to these key points:
+                        </p>
+                    </div>
+                    <div id="brown">
+                        <p lang="en">
+                            Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of screen readers:
+                        </p>
+                        <p lang="en">
+                            Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of screen readers:
+                        </p>
+                        <p lang="en">
+                            I got lots of good bits of feedback, which I collected into a Storify (crappy PDF version since the new Storify domain owners may block WayBack). I’ve distilled all that great information to these key points:
+                        </p>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <div id="footer">
+                <div class="footer"></div>
+                <div class="footer"></div>
+                <div class="footer"></div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        var xLogo = document.registerElement('x-logo', {
+            prototype: Object.create(HTMLDivElement.prototype)
+        });
+        var xLeft = document.registerElement('x-left', {
+            prototype: Object.create(HTMLDivElement.prototype)
+        });
+        var xSearch = document.registerElement('x-search', {
+            prototype: Object.create(HTMLDivElement.prototype)
+        });
+
+    </script>
 </body>
+
 </html>
