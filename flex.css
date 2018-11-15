@@ -1,170 +1,170 @@
 body {
-	position: fixed;
-	left: 50%;
-	background-color: #DCDCDC;
-	transform: translate(-50%);
+    position: fixed;
+    left: 50%;
+    background-color: #DCDCDC;
+    transform: translate(-50%);
 }
 
 #container {
-	display: block;
+    display: block;
 }
 
 x-left {
-	display: flex;
-	flex-direction: column;
-	width: 250px;
-	background-color: #F0F8FF;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #F0F8FF;
 }
 
 #container-main {
-	display: flex;
+    display: flex;
 }
 
 #top {
-	width: 1050px;
-	height: 75px;
-	background-color: #FFFAFA;
-	display: flex;
-	align-items: center;
-	border-radius: 6px;
+    width: 1050px;
+    height: 75px;
+    background-color: #FFFAFA;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
 }
 
 x-logo {
-	width: 75px;
-	height: 75px;
-	margin-left: 10px;
+    width: 75px;
+    height: 75px;
+    margin-left: 10px;
 }
 
 x-search {
-	display: flex;
-	margin-left: 680px;
+    display: flex;
+    margin-left: 680px;
 }
 
 input {
-	height: 35px;
-	width: 278px;
-	padding: 17 28;
-	margin-right: 5;
-	border: 2px solid #00CED1;
+    height: 35px;
+    width: 278px;
+    padding: 17 28;
+    margin-right: 5;
+    border: 2px solid #00CED1;
     border-radius: 5px;
-	outline: none;
-	background-image: url('searchicon.png');
-    background-position: 10px 10px; 
+    outline: none;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
     background-repeat: no-repeat;
 }
 
 input:focus {
-	border: 2px solid #4169E1;
-	border-radius: 5px;
+    border: 2px solid #4169E1;
+    border-radius: 5px;
 }
 
 #menu {
-	display: flex;
-	width: 1050px;
+    display: flex;
+    width: 1050px;
 }
 
 #main {
-	display: flex;
-	width: 1050px;
-	height: 530px;
+    display: flex;
+    width: 1050px;
+    height: 530px;
 }
 
 li {
-	font-family: 'Slabo 27px', serif;
-	background-color: #00CED1;
-	padding: 5px 5px 5px 5px;
-	margin: 5px 5px 5px 5px;
-	display: inline-block;
-	width: 151.6px;
-	text-align: center;
-	border-radius: 5px;
-	}
-	
+    font-family: 'Slabo 27px', serif;
+    background-color: #00CED1;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    display: inline-block;
+    width: 151.6px;
+    text-align: center;
+    border-radius: 5px;
+}
+
 x-left li {
-	display: block;
-	width: auto;
-	text-align: left;
-	}
-	
+    display: block;
+    width: auto;
+    text-align: left;
+}
+
 li:hover {
-	background-color: #B0E0E6;
+    background-color: #B0E0E6;
 }
 
 header li {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 14pt;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14pt;
+    cursor: pointer;
 }
 
 ul {
-	margin: 8px 0 8px 0;
-	padding: 0 0 0 0;
+    margin: 8px 0 8px 0;
+    padding: 0 0 0 0;
 }
-	
+
 #container-main div {
-	padding: 5px 5px 5px 5px;
-	margin: 5px 0px 5px 5px;
-	width: 250px;
-	height: 510px;
-}	
+    padding: 5px 5px 5px 5px;
+    margin: 5px 0px 5px 5px;
+    width: 250px;
+    height: 510px;
+}
 
 #container-main div:last-child {
-	margin: 5px 5px 5px 5px;
-}	
+    margin: 5px 5px 5px 5px;
+}
 
 p {
-	font-family: 'Roboto Condensed', sans-serif;
-	text-align: justify;
-	margin: 16 0;
-	font-size: 15;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
-	font-weight: 400;
-	hyphens: auto;
-	-ms-hyphens: auto; 
-	-moz-hyphens: auto; 
-	-webkit-hyphens: auto; 
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
+    margin: 16 0;
+    font-size: 15;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-weight: 400;
+    hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 #red {
-	background-color: #FFE4E1;
+    background-color: #FFE4E1;
 }
 
 #green {
-	background-color: #F5FFFA;
+    background-color: #F5FFFA;
 }
 
 #brown {
-	background-color: #FDF5E6;
+    background-color: #FDF5E6;
 }
 
 main {
-	background-color: #F5F5DC;
-	width: 800px;
+    background-color: #F5F5DC;
+    width: 800px;
 }
 
 a {
-	cursor: pointer;
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 }
 
 footer {
-	background-color: #A9A9A9;
-	width: 1050px;
+    background-color: #A9A9A9;
+    width: 1050px;
 }
 
 #footer {
-	display: flex;
-	height: 100px;
+    display: flex;
+    height: 100px;
 }
 
 #footer div {
-	background-color: #FFF0F5;
-	padding: 5px 5px 5px 5px;
-	margin: 5px 0px 5px 5px;
-	width: 350px;
+    background-color: #FFF0F5;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 0px 5px 5px;
+    width: 350px;
 }
 
 #footer div:last-child {
-	margin: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
 }
